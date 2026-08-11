@@ -1,0 +1,28 @@
+{
+  "name": "wardrobe-assistant-api",
+  "version": "1.0.0",
+  "description": "Backend API for Wardrobe Assistant project",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaibhav",
+  "license": "ISC",
+  "dependencies": {
+    "@huggingface/inference": "^4.6.1",
+    "axios": "^1.11.0",
+    "bcryptjs": "^3.0.2",
+    "compute-cosine-similarity": "^1.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
